@@ -44,3 +44,12 @@ To manage the Spanish word lists:
 3. Run `pnpm generate:wordlists` (requires `pnpm install` to pick up the `tsx` dependency).
 
 The script outputs `constants/wordlist.ts` with the updated `Rf`, `Pf`, and `Yf` structures while keeping accent handling intact.
+
+
+## Analytics and advertising
+
+`lib/site-scripts.ts` contains independent switches for Google Analytics, AdSense, Adsterra Social Bar, Popunder, and banners. Real vendor scripts load only with `NODE_ENV=production` on `lapalabra-deldia.com`. Development and preview hosts load no vendor scripts; wide desktop layouts show banner placeholders instead.
+
+The left banner is 160×600 and the right banner is 160×300. They mount only on desktop viewports at least 1728px wide and 760px tall, with a mouse/trackpad, leaving room around the existing 1280px game container. Mobile does not mount banner iframes or load their scripts. The Social Bar retains its existing mobile exclusion on game/finder pages; AdSense and GA remain available on mobile in production.
+
+Popunder retains the existing game rules: after at least two completed rounds, the next new-game action can load it, at most once per tab session and once every 24 hours. Development and preview actions do not consume that cap.

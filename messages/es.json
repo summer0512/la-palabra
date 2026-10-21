@@ -177,9 +177,9 @@
         ]
       },
       "adsense": {
-        "title": "Uso de Google AdSense y publicidad",
+        "title": "Uso de Google AdSense, Adsterra y publicidad",
         "paragraphs": [
-          "Mostramos anuncios de Google AdSense para mantener el servicio gratuito. AdSense puede utilizar cookies e identificadores técnicos para personalizar anuncios o limitar repeticiones.",
+          "Mostramos anuncios de Google AdSense y Adsterra para mantener el servicio gratuito. Estos proveedores pueden utilizar cookies e identificadores técnicos para mostrar anuncios y limitar repeticiones.",
           "Puedes gestionar preferencias de anuncios visitando el Centro de Privacidad de Google o desactivando la personalización directamente en el banner de consentimiento presentado en el sitio."
         ],
         "items": [
@@ -197,7 +197,7 @@
         "items": [
           "Cookies esenciales: necesarias para el funcionamiento del juego y no pueden ser desactivadas.",
           "Cookies de rendimiento: usadas para métricas agregadas de uso y para identificar errores.",
-          "Cookies de publicidad: habilitan la personalización de anuncios de Google AdSense cuando están autorizados."
+          "Cookies de publicidad: habilitan la publicación de anuncios de Google AdSense y Adsterra cuando están autorizados."
         ]
       },
       "thirdParties": {

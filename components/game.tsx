@@ -28,6 +28,7 @@ import {
 } from "@/lib/words";
 import { getChallengeWordFromUrl, clearChallengeFromUrl } from "@/lib/share";
 import { getGamePath, getFinderPath } from "@/lib/length-pages";
+import { loadAdsterraPopunder } from "@/lib/adsterra-popunder";
 import { completeDailyGame, isDailyGameCompleted } from "@/lib/dailyGame";
 import { DEFAULT_STATS, loadStats, recordGameResult, StoredStats } from "@/lib/stats";
 
@@ -35,7 +36,6 @@ type GameMode = "daily" | "infinite" | "challenge";
 
 const DAILY_STORAGE_KEY = "palabra-diaria-progreso";
 const CHALLENGE_STORAGE_PREFIX = "palabra-desafio-progreso:";
-// const POPUNDER_SCRIPT_SRC = "https://pl29091407.profitablecpmratenetwork.com/c0/e0/50/c0e05061fccfa5f304e0861873bebc97.js";
 const POPUNDER_SESSION_SHOWN_KEY = "palabra-popunder-session-shown-count";
 const POPUNDER_LAST_SHOWN_AT_KEY = "palabra-popunder-last-shown-at";
 const POPUNDER_COMPLETED_ROUNDS_KEY = "palabra-popunder-completed-rounds";
@@ -269,23 +269,6 @@ function Game({ wordListData, initialWordLength, initialAccentMode, initialDaily
 
     return `infinite-${buildVariantSuffix(settings)}-${infiniteGameId}`;
   }, [mode, currentSolution, settings, infiniteGameId]);
-
-  // const triggerPopunder = useCallback(() => {
-  //   if (!isMounted || typeof document === "undefined") {
-  //     return;
-  //   }
-
-  //   const existingScript = document.querySelector('script[data-adsterra-popunder="true"]');
-  //   if (existingScript) {
-  //     existingScript.remove();
-  //   }
-
-  //   const script = document.createElement("script");
-  //   script.src = POPUNDER_SCRIPT_SRC;
-  //   script.async = true;
-  //   script.setAttribute("data-adsterra-popunder", "true");
-  //   document.body.appendChild(script);
-  // }, [isMounted]);
 
   const readStoredNumber = useCallback((
     storage: "localStorage" | "sessionStorage",
@@ -687,7 +670,6 @@ function Game({ wordListData, initialWordLength, initialAccentMode, initialDaily
     incrementCompletedRounds,
     getRoundKey,
     canShowPopunder,
-    // triggerPopunder,
     markPopunderShown
   ]);
 
@@ -854,8 +836,7 @@ function Game({ wordListData, initialWordLength, initialAccentMode, initialDaily
 
   const handleNewGame = useCallback(() => {
     const pendingRoundKey = pendingPopunderRoundKeyRef.current;
-    if (pendingRoundKey) {
-      // triggerPopunder();
+    if (pendingRoundKey && loadAdsterraPopunder()) {
       markPopunderShown();
       popunderShownRoundRef.current = pendingRoundKey;
       pendingPopunderRoundKeyRef.current = null;
@@ -885,7 +866,6 @@ function Game({ wordListData, initialWordLength, initialAccentMode, initialDaily
     mode,
     settings,
     startInfiniteGame,
-    // triggerPopunder,
     markPopunderShown
   ]);
 

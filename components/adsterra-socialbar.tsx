@@ -1,11 +1,10 @@
 'use client';
 
-import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import Script from "next/script";
 
-const SOCIALBAR_SCRIPT_SRC =
-  "https://pl29091408.profitablecpmratenetwork.com/fe/21/9a/fe219a1085afcc9accb75cdcd6f41581.js";
+import { useMediaQuery, useProductionSite } from "@/hooks/use-site-runtime";
+import { SITE_SCRIPTS, SOCIALBAR_SCRIPT_SRC } from "@/lib/site-scripts";
 const MOBILE_MEDIA_QUERY = "(max-width: 768px)";
 
 const normalizePathname = (pathname: string): string => {
@@ -53,32 +52,13 @@ const isGameOrFinderPath = (pathname: string): boolean => {
 
 export default function AdsterraSocialBar() {
   const pathname = usePathname();
-  const [shouldLoad, setShouldLoad] = useState(false);
+  const production = useProductionSite();
+  const mobile = useMediaQuery(MOBILE_MEDIA_QUERY);
 
-  useEffect(() => {
-    if (typeof window === "undefined") {
-      return;
-    }
-
-    const mediaQuery = window.matchMedia(MOBILE_MEDIA_QUERY);
-
-    const updateVisibility = () => {
-      const currentPath = pathname ?? "/";
-      const hideOnMobile = mediaQuery.matches && isGameOrFinderPath(currentPath);
-      setShouldLoad(!hideOnMobile);
-    };
-
-    updateVisibility();
-    mediaQuery.addEventListener("change", updateVisibility);
-
-    return () => {
-      mediaQuery.removeEventListener("change", updateVisibility);
-    };
-  }, [pathname]);
-
-  if (!shouldLoad) {
+  // Keep the existing mobile exclusion on game and finder pages.
+  if (!production || !SITE_SCRIPTS.adsterraSocialBar || (mobile && isGameOrFinderPath(pathname ?? "/"))) {
     return null;
   }
 
-  return <Script strategy="afterInteractive" src={SOCIALBAR_SCRIPT_SRC} />;
+  return <Script id="adsterra-socialbar" data-cfasync="false" strategy="afterInteractive" src={SOCIALBAR_SCRIPT_SRC} />;
 }
