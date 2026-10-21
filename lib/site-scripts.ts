@@ -4,7 +4,7 @@ export const PRODUCTION_HOSTNAME = "lapalabra-deldia.com";
 export const SITE_SCRIPTS = {
   googleAnalytics: true,
   googleAds: true,
-  adsterraSocialBar: true,
+  adsterraSocialBar: false,
   // AdSense prohibits Google ads on sites that contain or trigger pop-unders.
   adsterraPopunder: false,
   adsterraBanners: true,
