@@ -1,4 +1,5 @@
-﻿import * as Dialog from "@radix-ui/react-dialog";
+﻿import { AdsterraResultBanner } from "@/components/adsterra-banners";
+import * as Dialog from "@radix-ui/react-dialog";
 import { BarChart3, Share2, Copy, X, Download } from "lucide-react";
 import { useState } from "react";
 import { generateShareText, generateTwitterShareUrl, copyToClipboard } from "../../lib/share";
@@ -88,17 +89,19 @@ export const WinModal = ({
     <>
       <Dialog.Root open={isOpen} onOpenChange={handleClose} modal>
         <Dialog.Portal>
-          <Dialog.Overlay className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
+          <Dialog.Overlay className="fixed inset-0 z-40 bg-gray-500 bg-opacity-75 transition-opacity" />
           <Dialog.Content className="fixed z-50 inset-0 overflow-y-auto">
             <div className="flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
               <span className="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">
                 &#8203;
               </span>
-              <Dialog.Description className="inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full sm:p-6">
+              <Dialog.Description asChild>
+              <div className="inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full sm:p-6">
                 <div className="absolute top-0 right-0 pt-4 pr-4">
                   <Dialog.Close asChild>
                     <button
                       type="button"
+                      aria-label="Cerrar"
                       className="bg-white rounded-md text-gray-400 hover:text-gray-600 focus:outline-none"
                     >
                       <X className="h-6 w-6" aria-hidden="true" />
@@ -152,7 +155,9 @@ export const WinModal = ({
                     <span>{copySuccess ? "¡Copiado!" : "Copiar"}</span>
                   </button>
                 </div>
-              </Dialog.Description>
+                {isOpen ? <AdsterraResultBanner /> : null}
+              </div>
+            </Dialog.Description>
             </div>
           </Dialog.Content>
         </Dialog.Portal>
