@@ -52,4 +52,4 @@ The script outputs `constants/wordlist.ts` with the updated `Rf`, `Pf`, and `Yf`
 
 The left banner is 160×600 and the right banner is 160×300. They mount only on desktop viewports at least 1728px wide and 760px tall, with a mouse/trackpad, leaving room around the existing 1280px game container. Mobile does not mount banner iframes or load their scripts. The Social Bar retains its existing mobile exclusion on game/finder pages; AdSense and GA remain available on mobile in production.
 
-Popunder retains the existing game rules: after at least two completed rounds, the next new-game action can load it, at most once per tab session and once every 24 hours. Development and preview actions do not consume that cap.
+Popunder is disabled because [AdSense placement policies](https://support.google.com/adsense/answer/1346295?hl=en) prohibit Google ads on sites that contain or trigger pop-unders, including third-party pop-unders. The dormant loader remains guarded by its disabled switch. A future in-page Adsterra banner dialog requires a separate banner unit; it must not trigger browser pop-under windows.

@@ -5,7 +5,8 @@ export const SITE_SCRIPTS = {
   googleAnalytics: true,
   googleAds: true,
   adsterraSocialBar: true,
-  adsterraPopunder: true,
+  // AdSense prohibits Google ads on sites that contain or trigger pop-unders.
+  adsterraPopunder: false,
   adsterraBanners: true,
 };
 
