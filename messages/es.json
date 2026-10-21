@@ -1,0 +1,568 @@
+{
+  "HomePage": {
+    "title": "La Palabra del Día - Juego de Palabras en Español | lapalabra-deldia.com",
+    "description": "¡Juega a La Palabra del Día online gratis! El juego de palabras más popular en español. Palabra diaria, modo infinito ilimitado, desafíos personalizados y estadísticas completas del juego de 5 letras.",
+    "keywords": "la palabra del día, juego de palabras, modo infinito, palabra de hoy, juego de palabras de 5 letras, desafío de palabras, wordle en español, juego de palabras online",
+    "h1": "La Palabra del Día - Juego de Palabras en Español",
+    "gameIntro": {
+      "title": "¿Qué es La Palabra del Día?",
+      "subtitle": "Descubre La Palabra del Día, el juego de palabras más adictivo en español",
+      "description": "La Palabra del Día es el juego de palabras más popular en español, conocido también como wordle español, pero totalmente adaptado a nuestro idioma. En lapalabra-deldia.com encontrarás la palabra de hoy con una nueva palabra diaria oficial, además del modo infinito con palabras ilimitadas. Tu objetivo es simple: adivinar una palabra de 5 letras en hasta 6 intentos usando las pistas visuales de colores de La Palabra del Día.",
+      "features": [
+        "🎯 Nueva palabra todos los días en La Palabra del Día",
+        "♾️ Modo infinito para jugar sin parar",
+        "🔗 Crea desafíos personalizados para tus amigos",
+        "📱 Funciona perfectamente en móvil y computadora",
+        "🏆 Acompaña tus estadísticas y rachas",
+        "🎨 Interfaz limpia e intuitiva para mejor experiencia"
+      ],
+      "featureHighlights": [
+        {
+          "title": "Palabra diaria sincronizada",
+          "description": "Juega la palabra de hoy con la misma palabra oficial publicada para todos los jugadores a las 00:00.",
+          "keyword": "palabra de hoy"
+        },
+        {
+          "title": "Modo infinito sin límites",
+          "description": "Practica cuantas veces quieras en el modo infinito, con miles de palabras de 5 letras en español.",
+          "keyword": "palabra infinito"
+        },
+        {
+          "title": "Desafíos personalizados",
+          "description": "Crea desafíos compartibles eligiendo cualquier palabra de 5 letras y envía el enlace a tus amigos.",
+          "keyword": "desafío palabra"
+        },
+        {
+          "title": "Estadísticas completas",
+          "description": "Acompaña victorias, distribución de intentos y racha diaria directamente en el navegador.",
+          "keyword": "estadísticas de la palabra"
+        },
+        {
+          "title": "Wordle en español",
+          "description": "Vocabulario 100% español, con soporte para acentos y palabras comunes. Ideal para quienes buscan un wordle español.",
+          "keyword": "wordle español"
+        },
+        {
+          "title": "Interfaz responsiva",
+          "description": "Interfaz ligera que funciona perfectamente en móvil, tablet y computadora.",
+          "keyword": "juego de palabras en móvil"
+        }
+      ]
+    },
+    "howToPlay": {
+      "title": "Cómo Jugar La Palabra del Día - Guía Completa",
+      "subtitle": "Aprende las reglas de La Palabra del Día en menos de 1 minuto",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Escribe una palabra",
+          "description": "Comienza escribiendo cualquier palabra de 5 letras en español en La Palabra del Día. Puede ser sustantivo, verbo, adjetivo - ¡cualquier palabra válida!"
+        },
+        {
+          "number": "2",
+          "title": "Observa los colores",
+          "description": "🟩 Verde: letra correcta en el lugar correcto | 🟨 Amarillo: letra existe, pero está en el lugar incorrecto | ⬛ Gris: letra no existe en la palabra"
+        },
+        {
+          "number": "3",
+          "title": "Usa las pistas",
+          "description": "Basado en los colores, haz tu próximo intento. Elimina letras grises, reposiciona las amarillas y mantén las verdes en su lugar."
+        },
+        {
+          "number": "4",
+          "title": "Descubre la palabra",
+          "description": "Tienes 6 intentos para descubrir la palabra secreta. ¡Cuántos menos intentos uses, mejor tu puntuación!"
+        }
+      ],
+      "tips": {
+        "title": "Consejos para ser un maestro de La Palabra del Día",
+        "list": [
+          "Comienza con palabras que tengan vocales variadas como AUDIO u OTRA",
+          "Usa palabras con consonantes comunes como R, S, T, N, L en los primeros intentos",
+          "Presta atención a las letras amarillas - están en la palabra, solo en el lugar incorrecto",
+          "Evita repetir letras que ya aparecieron en gris"
+        ]
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes sobre La Palabra del Día, Palabra de Hoy y Palabra Infinito",
+      "subtitle": "Resuelve todas tus dudas sobre La Palabra del Día, palabra de hoy y palabra infinito",
+      "questions": [
+        {
+          "question": "¿Cuál es la diferencia entre palabra de hoy y palabra infinito?",
+          "answer": "La palabra de hoy ofrece una nueva palabra oficial cada día a las 00:00, que es la misma para todos los jugadores. Es el desafío diario oficial del juego de palabras. Por su parte, el modo infinito permite jugar cuantas veces quieras con palabras aleatorias diferentes, perfecto para practicar tus habilidades sin esperar al próximo día. En el modo infinito puedes jugar cientos de partidas seguidas."
+        },
+        {
+          "question": "¿Puedo jugar La Palabra del Día en el móvil?",
+          "answer": "¡Sí! La Palabra del Día fue desarrollada para funcionar perfectamente en cualquier dispositivo - móvil, tablet o computadora. No necesitas descargar ninguna aplicación, solo accede por el navegador."
+        },
+        {
+          "question": "¿Cómo funciona el sistema de desafíos personalizados?",
+          "answer": "Puedes crear un desafío eligiendo una palabra de 5 letras y generando un enlace especial. Comparte este enlace con amigos y ellos tendrán que adivinar exactamente la palabra que elegiste!"
+        },
+        {
+          "question": "¿Las palabras de La Palabra del Día son siempre en español?",
+          "answer": "¡Sí! Todas las palabras están en español y forman parte del vocabulario común. Evitamos palabras muy técnicas, regionalismos extremos o términos obsoletos."
+        },
+        {
+          "question": "¿Puedo ver las estadísticas de mis juegos?",
+          "answer": "¡Claro! El juego guarda automáticamente tus estadísticas, incluyendo número de juegos, porcentaje de victorias, distribución de intentos y tu racha actual de victorias."
+        },
+        {
+          "question": "¿Qué pasa si no logro adivinar la palabra?",
+          "answer": "Si agotas los 6 intentos sin acertar, el juego revela la palabra correcta. En La Palabra del Día, puedes intentar nuevamente al día siguiente. En el modo infinito, puedes comenzar un nuevo juego inmediatamente."
+        },
+        {
+          "question": "¿Puedo compartir mi resultado en redes sociales?",
+          "answer": "¡Sí! Al completar un juego, puedes compartir tu resultado usando emojis de colores que muestran tu desempeño sin revelar la palabra. Es una forma divertida de desafiar a tus amigos!"
+        },
+        {
+          "question": "¿Existe alguna estrategia especial para La Palabra del Día?",
+          "answer": "La mejor estrategia es comenzar con palabras que tengan muchas vocales y consonantes comunes. Palabras como AUDIO, OTRA, ANTES o CERCA son excelentes para comenzar, ya que revelan muchas letras útiles."
+        }
+      ]
+    },
+    "pointers": [
+      {
+        "title": "Palabra de hoy",
+        "description": "Accede a la palabra diaria oficial y comparte tus resultados con emojis.",
+        "href": "/"
+      },
+      {
+        "title": "Palabra infinito",
+        "description": "Practica cuantas veces quieras con palabras en español y refina tus estrategias.",
+        "href": "/#modos-de-juego"
+      },
+      {
+        "title": "Estadísticas detalladas",
+        "description": "Usa el panel local para analizar victorias, distribución y racha diaria.",
+        "href": "/#estadisticas"
+      },
+      {
+        "title": "Instalar como aplicación",
+        "description": "Ve cómo agregar lapalabra-deldia.com a pantalla inicial (PWA) y jugar como si fuera una app.",
+        "href": "/guia-palabra#recursos"
+      },
+      {
+        "title": "Buscador de palabras",
+        "description": "Filtra letras y descubre opciones para la palabra de 5 letras en segundos.",
+        "href": "/buscador-palabras"
+      }
+    ]
+  },
+  "Header": {
+    "title": "La Palabra del Día"
+  },
+  "PrivacyPage": {
+    "meta": {
+      "title": "Política de Privacidad | lapalabra-deldia.com",
+      "description": "Descubre cómo lapalabra-deldia.com trata datos personales, cookies, Google AdSense y los derechos de los jugadores de La Palabra del Día.",
+      "keywords": "política de privacidad palabra, privacidad lapalabra-deldia, google adsense palabra"
+    },
+    "heading": "Política de Privacidad de lapalabra-deldia.com",
+    "lastUpdated": "Última actualización: 17 de octubre de 2025",
+    "intro": "Esta Política de Privacidad explica cómo lapalabra-deldia.com recopila, utiliza y protege los datos de jugadores y visitantes que interactúan con nuestro juego La Palabra del Día y con los servicios adicionales ofrecidos en el sitio.",
+    "sections": {
+      "dataCollection": {
+        "title": "Información que recopilamos",
+        "paragraphs": [
+          "Recopilamos solo la información necesaria para operar el juego, cumplir obligaciones legales y mejorar la experiencia de los jugadores. No te pedimos que crees un registro obligatorio para jugar.",
+          "También registramos datos técnicos proporcionados automáticamente por tu navegador para mantener el sitio seguro, optimizar rendimiento y evitar usos abusivos."
+        ],
+        "items": [
+          "Datos de dispositivo y navegador, como tipo de dispositivo, sistema operativo, idioma y versión del navegador.",
+          "Dirección IP acortada o anonimizada, utilizada para detección de fraude y limitación de intentos automatizados.",
+          "Registros de interacciones dentro del juego, por ejemplo cantidad de partidas, estadísticas y preferencias de tema almacenadas localmente.",
+          "Información agregada sobre rendimiento del sitio capturada por herramientas de análisis, sin identificar individualmente a los jugadores."
+        ]
+      },
+      "adsense": {
+        "title": "Uso de Google AdSense y publicidad",
+        "paragraphs": [
+          "Mostramos anuncios de Google AdSense para mantener el servicio gratuito. AdSense puede utilizar cookies e identificadores técnicos para personalizar anuncios o limitar repeticiones.",
+          "Puedes gestionar preferencias de anuncios visitando el Centro de Privacidad de Google o desactivando la personalización directamente en el banner de consentimiento presentado en el sitio."
+        ],
+        "items": [
+          "Google, como proveedor externo, usa cookies para mostrar anuncios en nuestro sitio.",
+          "Las cookies DART permiten que Google presente anuncios basados en las visitas de los usuarios a este y a otros sitios de internet.",
+          "Los usuarios pueden desactivar el uso de la cookie DART visitando la Política de Privacidad de la red de contenido y anuncios de Google."
+        ]
+      },
+      "cookies": {
+        "title": "Cookies y tecnologías similares",
+        "paragraphs": [
+          "Utilizamos cookies esenciales para recordar elecciones de idioma, registrar estadísticas locales de La Palabra del Día y mantener funcionalidades básicas del sitio.",
+          "Cookies opcionales de medición y publicidad se cargan solo después de tu consentimiento, respetando la legislación europea y española aplicable."
+        ],
+        "items": [
+          "Cookies esenciales: necesarias para el funcionamiento del juego y no pueden ser desactivadas.",
+          "Cookies de rendimiento: usadas para métricas agregadas de uso y para identificar errores.",
+          "Cookies de publicidad: habilitan la personalización de anuncios de Google AdSense cuando están autorizados."
+        ]
+      },
+      "thirdParties": {
+        "title": "Compartir información",
+        "paragraphs": [
+          "No vendemos, alquilamos o compartimos datos personales identificables con terceros para fines propios.",
+          "Compartimos datos solo con proveedores que nos ayudan a operar el sitio (por ejemplo, alojamiento, análisis o anuncios) y solo en la medida necesaria para prestar el servicio."
+        ]
+      },
+      "rights": {
+        "title": "Tus derechos de privacidad",
+        "paragraphs": [
+          "Puedes ejercer derechos previstos en el GDPR y otras legislaciones aplicables. Entre ellos están:"
+        ],
+        "items": [
+          "Confirmar la existencia de tratamiento de datos.",
+          "Solicitar acceso, corrección o actualización de información.",
+          "Requerir anonimización, bloqueo o eliminación de datos innecesarios.",
+          "Solicitar portabilidad cuando sea técnicamente viable.",
+          "Revocar consentimientos otorgados en cualquier momento.",
+          "Presentar reclamación a la Autoridad de Protección de Datos si lo consideras necesario."
+        ]
+      },
+      "security": {
+        "title": "Seguridad y retención",
+        "paragraphs": [
+          "Aplicamos medidas técnicas y administrativas razonables para proteger los datos contra acceso, alteración o destrucción no autorizados.",
+          "Mantenemos los registros solo por el tiempo necesario para cumplir finalidades legítimas, requisitos legales y resolver eventuales disputas."
+        ]
+      },
+      "children": {
+        "title": "Privacidad de niños",
+        "paragraphs": [
+          "lapalabra-deldia.com está destinado a usuarios con 13 años o más. No recopilamos conscientemente datos de niños menores de 13 años; si identificamos esta recopilación, eliminaremos la información inmediatamente."
+        ]
+      },
+      "changes": {
+        "title": "Actualizaciones de esta política",
+        "paragraphs": [
+          "Podemos actualizar esta Política de Privacidad para reflejar cambios legales u operacionales. La fecha de última actualización será revisada y avisaremos a los usuarios sobre cambios relevantes."
+        ]
+      }
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "description": "Si tienes dudas, solicitudes relacionadas con la privacidad o quieres ejercer tus derechos, habla con nuestro equipo.",
+      "emailLabel": "Correo electrónico de contacto:",
+      "email": "contacto@lapalabra-deldia.com"
+    }
+  },
+  "TermsPage": {
+    "meta": {
+      "title": "Términos de Uso | lapalabra-deldia.com",
+      "description": "Lee las reglas de uso de lapalabra-deldia.com, responsabilidades de los jugadores y condiciones del servicio La Palabra del Día online.",
+      "keywords": "términos de uso palabra, condiciones lapalabra-deldia, reglas palabra online"
+    },
+    "heading": "Términos de Uso de lapalabra-deldia.com",
+    "lastUpdated": "Última actualización: 17 de octubre de 2025",
+    "intro": "Estos Términos de Uso regulan el acceso y uso de lapalabra-deldia.com, incluyendo el juego La Palabra del Día y cualquier funcionalidad asociada.",
+    "acceptance": "Al acceder al sitio, confirmas que has leído, entendido y aceptas los presentes Términos de Uso.",
+    "sections": {
+      "useOfService": {
+        "title": "Servicio ofrecido",
+        "paragraphs": [
+          "lapalabra-deldia.com ofrece de forma gratuita un juego online de adivinación de palabras y contenidos informativos relacionados con estrategias y novedades de La Palabra del Día.",
+          "Podemos agregar, ajustar o remover características del juego en cualquier momento para mantener la calidad del servicio, sin necesidad de aviso previo."
+        ]
+      },
+      "userResponsibilities": {
+        "title": "Responsabilidades del usuario",
+        "paragraphs": [
+          "Eres responsable de garantizar que tu uso del sitio esté conforme con la legislación vigente y con estos Términos de Uso.",
+          "Al interactuar con el juego u otros recursos, te comprometes a actuar de forma respetuosa con la comunidad y con la infraestructura del servicio."
+        ],
+        "items": [
+          "No intentar interferir en el funcionamiento normal del sitio o del juego.",
+          "No utilizar scripts automatizados que puedan perjudicar la estabilidad de la plataforma.",
+          "Respetar derechos de autor y marcas mostradas en el sitio.",
+          "Proporcionar información verdadera al contactarnos."
+        ]
+      },
+      "accountAndData": {
+        "title": "Estadísticas, datos y cuentas",
+        "paragraphs": [
+          "El juego guarda estadísticas locales en tu dispositivo para que acompañes el rendimiento y rachas de victorias.",
+          "No exigimos creación de cuenta; si funcionalidades futuras solicitan registro opcional, informaremos claramente las finalidades y condiciones."
+        ]
+      },
+      "adsense": {
+        "title": "Publicidad y Google AdSense",
+        "paragraphs": [
+          "El sitio muestra anuncios de Google AdSense, sujeto a las políticas de Google Ads y las leyes aplicables.",
+          "Al continuar usando el sitio, aceptas que podemos presentar anuncios, siempre que se respeten tus elecciones de consentimiento."
+        ],
+        "items": [
+          "Los anuncios pueden ser personalizados basados en datos de cookies, si lo has autorizado.",
+          "Puedes cambiar tus preferencias de anuncios en cualquier momento a través del banner de consentimiento o del portal de anuncios de Google.",
+          "El bloqueo completo de anuncios puede afectar la forma en que financiamos y mantenemos el servicio gratuito."
+        ]
+      },
+      "intellectualProperty": {
+        "title": "Derechos de autor y propiedad intelectual",
+        "paragraphs": [
+          "Todos los textos, diseños, logotipos, recursos gráficos y códigos utilizados en lapalabra-deldia.com son de nuestra propiedad o licenciados.",
+          "Está prohibido copiar, reproducir o redistribuir cualquier parte del sitio sin autorización por escrito."
+        ]
+      },
+      "acceptableUse": {
+        "title": "Uso aceptable",
+        "paragraphs": [
+          "Al utilizar lapalabra-deldia.com, aceptas no realizar conductas que puedan perjudicar a otros usuarios o comprometer la seguridad del servicio, incluyendo:"
+        ],
+        "items": [
+          "Distribuir malware, spam o contenido ofensivo a través del sitio.",
+          "Intentar acceder a áreas restringidas sin autorización.",
+          "Ingeniería inversa o descompilar partes del código.",
+          "Utilizar el sitio para fines comerciales no autorizados.",
+          "Recopilar datos de otros usuarios sin consentimiento expreso."
+        ]
+      },
+      "disclaimer": {
+        "title": "Exención de responsabilidad",
+        "paragraphs": [
+          "Aunque nos esforzamos por mantener el sitio disponible y libre de errores, no garantizamos funcionamiento ininterrumpido o libre de fallos.",
+          "El contenido informativo se proporciona solo para fines recreativos y puede ser actualizado o removido en cualquier momento."
+        ]
+      },
+      "liability": {
+        "title": "Limitación de responsabilidad",
+        "paragraphs": [
+          "En ningún caso seremos responsables por daños indirectos, lucro cesante o cualesquiera pérdidas resultantes del uso o de la imposibilidad de uso del servicio.",
+          "Nuestra responsabilidad total, si la hubiere, se limitará al monto eventualmente pagado por el usuario para utilizar recursos específicos, lo que no ocurre actualmente."
+        ]
+      },
+      "thirdPartyLinks": {
+        "title": "Enlaces a terceros",
+        "paragraphs": [
+          "El sitio puede contener enlaces a páginas de terceros. No somos responsables del contenido o políticas de estos sitios externos."
+        ]
+      },
+      "changes": {
+        "title": "Alteraciones en los términos",
+        "paragraphs": [
+          "Podemos modificar estos Términos de Uso periódicamente. Cambios significativos serán comunicados mediante aviso en el sitio, y el uso continuo después de la actualización constituye aceptación de las nuevas condiciones."
+        ]
+      }
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "description": "Si necesitas aclarar dudas sobre estos Términos de Uso o sobre el funcionamiento del sitio, contáctanos.",
+      "emailLabel": "Correo electrónico de contacto:",
+      "email": "contacto@lapalabra-deldia.com"
+    }
+  },
+  "Footer": {
+    "copyright": "lapalabra-deldia.com © 2025",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Uso",
+    "guide": "Guía La Palabra Academy",
+    "about": "Sobre nosotros"
+  },
+  "GuidePage": {
+    "meta": {
+      "title": "Guía Completa La Palabra del Día: Estrategias, Consejos y Cómo Jugar | La Palabra Juego",
+      "description": "Guía definitiva de La Palabra del Día en español. Aprende estrategias ganadoras, mejores palabras iniciales, cómo jugar palabra de hoy, palabra infinito y dominar el wordle español. Consejos profesionales para jugadores principiantes y avanzados.",
+      "keywords": "guía palabra, cómo jugar la palabra del día, estrategias para palabra, consejos para palabra, mejores palabras iniciales, tácticas del modo infinito, guía wordle en español, consejos de la palabra de hoy, tutorial del juego de palabras, vocabulario en español"
+    },
+    "hero": {
+      "title": "Guía completa de La Palabra del Día en español",
+      "subtitle": "Todo lo que necesitas para mejorar en La Palabra del Día, en el modo infinito y en los desafíos personalizados.",
+      "content": "Hemos reunido palabras iniciales recomendadas, lectura de tablero, interpretación de estadísticas y formas de transformar La Palabra del Día en una app (PWA). Guarda esta guía en favoritos y vuelve siempre que necesites repasar.",
+      "cta": "Cómo jugar La Palabra del Día"
+    },
+    "intro": {
+      "title": "Visión general de La Palabra del Día",
+      "description": "La Palabra del Día es el juego de palabras en español inspirado en Wordle, adaptado a nuestro vocabulario y con preservación de acentos. En esta guía encontrarás la base para progresar sin depender de spoilers.",
+      "items": [
+        "Palabras de 5 letras, 6 intentos y feedback por colores (verde, amarillo y gris).",
+        "Disponible directamente en el navegador, sin descargas, con experiencia optimizada para desktop y móvil.",
+        "Estadísticas locales muestran victorias, distribución de intentos y racha diaria."
+      ]
+    },
+    "strategies": {
+      "title": "Estrategias y palabras iniciales",
+      "description": "Combina palabras iniciales equilibradas con lectura cuidadosa de las pistas. Aprovecha el modo infinito para entrenar hipótesis y crear repertorio de intentos rápidos.",
+      "items": [
+        "Palabras iniciales populares: AUDIO, OTRA, LENTO, CESTA; alternar ayuda a cubrir vocales y consonantes.",
+        "Anota letras descartadas y confirma posiciones – una hoja de cálculo o bloc de notas acelera el razonamiento.",
+        "Entrena con metas: resuelve 3 partidas consecutivas en hasta 4 intentos antes de enfrentar la palabra de hoy.",
+        "Crea tu propia lista de palabras \"de limpieza\" para probar patrones (ej.: CIELO, PASTO, LINEA)."
+      ]
+    },
+    "modes": {
+      "title": "Modos de juego y variaciones",
+      "description": "Cada modo de lapalabra-deldia.com posee objetivos distintos, pero compartir estrategias entre ellos acelera tu curva de aprendizaje.",
+      "items": [
+        "Palabra de hoy: palabra única para todos los jugadores, reinicia a las 00:00 (horario español).",
+        "Palabra infinito: genera palabras aleatorias ilimitadas – ideal para practicar combinaciones y probar \"palabras de cobertura\".",
+        "Modo desafío: elige una palabra de 5 letras, genera un enlace y desafía a amigos; usa para crear campeonatos relámpago."
+      ]
+    },
+    "challenges": {
+      "title": "Desafíos personalizados",
+      "description": "Los desafíos son perfectos para cumpleaños, happy hours o grupos de estudio. Vale crear series temáticas (animales, ciudades, jergas).",
+      "items": [
+        "Elige palabras que todos conozcan – el objetivo es divertir, no frustrar. Piensa en vocablos comunes y sin caracteres especiales raros.",
+        "Comparte el enlace en el grupo y define un plazo; después, pide que cada participante envíe la cuadrícula de resultado.",
+        "Monta rankings semanales o torneos temáticos. Combina con hojas de cálculo o tableros Kanban para registrar los mejores tiempos."
+      ]
+    },
+    "stats": {
+      "title": "Estadísticas y progreso",
+      "description": "Interpretar las estadísticas es fundamental para evolucionar. Observa tendencias y ajusta tu estrategia según la distribución de intentos.",
+      "items": [
+        "Distribución: metas realistas comienzan con 50% de los juegos resueltos hasta el 4º intento.",
+        "Racha actual/récord: usa como gamificación personal. Si la racha está cayendo, juega el modo infinito antes de la palabra de hoy.",
+        "Porcentaje de victorias: debajo de 85% indica que aún se puede mejorar la lectura de pistas. Revisa donde usualmente te estancas.",
+        "Reinicio consciente: después de perder, analiza la palabra final e identifica qué letras ignoraste o repetiste en exceso."
+      ],
+      "cta": "Cómo ver tus estadísticas",
+      "ctaDescription": "Para visualizar tus estadísticas personales, regresa a la página inicial y haz clic en el ícono de gráfico de barras (📊) en la esquina superior derecha. Allí encontrarás tu historial completo de juegos, tasa de victorias, distribución de intentos y racha actual."
+    },
+    "resources": {
+      "title": "Recursos y buenas prácticas",
+      "description": "Además del juego en sí, ten siempre cerca fuentes confiables, diccionarios y tutoriales. Ayudan a expandir vocabulario y mantener La Palabra del Día divertida por más tiempo.",
+      "items": [
+        "Consulta la lista oficial de palabras de 5 letras en español (incluyendo acentuadas) y estudia combinaciones improbables.",
+        "Lee comparativos La Palabra del Día vs Wordle para entender diferencias de vocabulario, acentos y dificultad.",
+        "Transforma el sitio en una app PWA (adición a pantalla inicial) para acceso offline básico y carga más rápida."
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre la guía La Palabra del Día",
+      "description": "Resumimos las dudas más comunes de quienes están dando los primeros pasos o quieren dar el siguiente salto en La Palabra del Día.",
+      "entries": [
+        {
+          "question": "¿Cuál es la mejor palabra para empezar La Palabra del Día?",
+          "answer": "No existe una única palabra perfecta, pero comenzar con AUDIO, OTRA, LENTO o CESTA cubre vocales y consonantes frecuentes. Alterna entre ellas y evalúa en cuáles aciertas más rápidamente."
+        },
+        {
+          "question": "¿Cómo usar las estadísticas a mi favor?",
+          "answer": "Después de cada partida, ve si te estancaste en determinada posición (3ª o 4ª intento). Ajusta tus palabras de prueba y mantén un historial simple en hoja de cálculo o bloc de notas."
+        },
+        {
+          "question": "¿El modo infinito interfiere en la palabra de hoy?",
+          "answer": "No. El modo infinito es independiente, pero es excelente para entrenar estrategias y validar combinaciones antes de jugar el desafío diario."
+        },
+        {
+          "question": "¿Cómo crear desafíos sin revelar la palabra?",
+          "answer": "Usa la función \"Crear desafío\" de lapalabra-deldia.com para generar un enlace con la palabra secreta. Comparte solo el enlace y sigue los aciertos de tus amigos con el ranking informal que acuerden."
+        }
+      ]
+    },
+    "pointers": [
+      {
+        "title": "Palabra de hoy",
+        "description": "Accede a la palabra diaria oficial y comparte tus resultados con emojis.",
+        "href": "/"
+      },
+      {
+        "title": "Palabra infinito",
+        "description": "Practica cuantas veces quieras con palabras en español y refina tus estrategias.",
+        "href": "/#modos-de-juego"
+      },
+      {
+        "title": "Estadísticas detalladas",
+        "description": "Usa el panel local para analizar victorias, distribución y racha diaria.",
+        "href": "/#estadisticas"
+      },
+      {
+        "title": "Instalar como aplicación",
+        "description": "Ve cómo agregar lapalabra-deldia.com a pantalla inicial (PWA) y jugar como si fuera una app.",
+        "href": "/guia-palabra#recursos"
+      }
+    ]
+  },
+  "WordFinderPage": {
+    "meta": {
+      "title": "Buscador de palabras de 5 letras en español | La Palabra del Día",
+      "description": "Usa el buscador de palabras de 5 letras de La Palabra del Día para filtrar letras correctas, incluir y excluir caracteres. Encuentra opciones para Wordle y la palabra 5 letras en segundos.",
+      "keywords": "la palabra 5 letras, buscador de palabras, wordle opciones, filtro de letras, palabras de 5 letras en español, wordle español pistas"
+    },
+    "breadcrumbLabel": "Buscador de palabras",
+    "badge": "Herramienta para wordle",
+    "heroTitle": "Buscador de palabras de 5 letras en español",
+    "heroDescription": "Introduce letras conocidas, descarta caracteres y descubre palabras válidas al instante. Ideal para resolver La Palabra del Día, wordle español y cualquier reto con la palabra 5 letras.",
+    "heroHelper": "Combina posiciones exactas, letras obligatorias y exclusiones para reducir la lista de más de 10.000 palabras en español.",
+    "filtersTitle": "Filtros inteligentes para la palabra de {wordLength} letras",
+    "filtersDescription": "Marca qué letras conoces por posición, cuáles deben aparecer y cuáles descartar. El buscador usa el diccionario completo de La Palabra del Día.",
+    "resetButton": "Limpiar filtros",
+    "resetHelper": "Ajusta los filtros para ver sugerencias.",
+    "positionSectionTitle": "Letras por posición exacta",
+    "positionSectionDescription": "Escribe las letras confirmadas en cada casilla. Usamos mayúsculas para que coincidan con el tablero de La Palabra del Día.",
+    "positionBadge": "{wordLength} casillas",
+    "positionInputAria": "Letra para la posición {position}",
+    "includeSectionTitle": "Letras obligatorias",
+    "includeSectionDescription": "Selecciona letras que el juego marcó en amarillo y deben estar presentes en la palabra final.",
+    "includePlaceholder": "Selecciona letras presentes",
+    "excludeSectionTitle": "Letras descartadas",
+    "excludeSectionDescription": "Indica letras grises o que quieras eliminar para acotar resultados.",
+    "excludePlaceholder": "Selecciona letras a excluir",
+    "resultsTitle": "Coincidencias posibles",
+    "resultsDescription": "Lista ordenada con palabras válidas del diccionario oficial de La Palabra del Día.",
+    "noResultsDescription": "Ajusta las letras conocidas o elimina restricciones para encontrar al menos una opción que encaje con la palabra de 5 letras.",
+    "tipsTitle": "Cómo aprovechar el buscador",
+    "tipsDescription": "Consejos rápidos para sacar el máximo provecho y no perder la racha.",
+      "tipsFooter": "Recuerda alternar vocales y consonantes frecuentes para validar la siguiente combinación.",
+      "tipsList": [
+        "Empieza combinando vocales y consonantes frecuentes para cubrir más letras en menos intentos.",
+        "Marca en verde dentro del buscador las posiciones exactas que el tablero ya confirmó y evita repetir letras grises.",
+        "Cuando tengas demasiadas opciones, combina este buscador con el modo infinito para probar hipótesis sin gastar intentos."
+      ],
+      "shareButton": "Compartir filtros",
+      "shareTitle": "Buscador de palabras de {wordLength} letras",
+      "shareDescription": "Te comparto mi configuración del buscador de La Palabra del Día.",
+      "shareCopied": "Enlace listo para compartir.",
+      "shareError": "No pudimos compartir los filtros. Intenta más tarde.",
+      "accentToggle": {
+        "on": "Diferenciar acentos",
+        "off": "Ignorar acentos",
+        "helper": "Cuando ignoras acentos, tratamos Á, É, Í, Ó, Ú y Ü como las mismas vocales base. Ideal para juegos sin tildes."
+      },
+      "topNav": {
+        "home": "Volver al inicio",
+        "game": "Juego de {wordLength} letras"
+      },
+      "seoSection": {
+        "title": "Por qué usar el buscador de palabras de 5 letras",
+        "subtitle": "Un panel rápido para filtrar letras, confirmar posiciones y cerrar partidas sin perder el ritmo.",
+        "paragraphs": [
+          "El buscador usa el diccionario oficial de La Palabra del Día, con palabras comunes en español, tildes y la Ñ.",
+          "Introduce posiciones exactas, letras obligatorias y exclusiones para pasar de miles de opciones a una lista corta y clara."
+        ],
+        "highlights": [
+          {
+            "title": "Filtros combinables",
+            "description": "Mezcla posiciones exactas, letras obligatorias y exclusiones sin reiniciar la búsqueda."
+          },
+          {
+            "title": "Compatible con tildes",
+            "description": "Reconoce Á, É, Í, Ó, Ú, Ü y la Ñ como letras independientes."
+          },
+          {
+            "title": "Pensado para jugar",
+            "description": "Úsalo como apoyo en la palabra de hoy, el modo infinito o desafíos personalizados."
+          }
+        ],
+        "faqTitle": "Preguntas frecuentes del buscador",
+        "faqSubtitle": "Respuestas rápidas antes de empezar a filtrar.",
+        "faq": [
+          {
+            "question": "¿Puedo usar este buscador sin arruinar mi partida?",
+            "answer": "Sí. Solo filtra palabras; tú decides cuánto revelar."
+          },
+          {
+            "question": "¿Incluye palabras con acentos y la letra Ñ?",
+            "answer": "Sí. La base oficial contempla tildes, diéresis y la Ñ."
+          },
+          {
+            "question": "¿Cuántas palabras de 5 letras analiza?",
+            "answer": "Más de diez mil entre soluciones y palabras permitidas."
+          }
+        ]
+      },
+    "resultsLimitHint": "Mostramos hasta {max} coincidencias por búsqueda.",
+    "resultsOverLimit": "Hay más de {max} coincidencias. Ajusta los filtros para afinar la lista."
+  }
+}
