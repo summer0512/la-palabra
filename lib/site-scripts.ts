@@ -12,7 +12,7 @@ export const SITE_SCRIPTS = {
 };
 
 // Leave room around the existing 1280px game container, with a 24px gap.
-export const SIDE_AD_QUERY = "(min-width: 1728px) and (min-height: 760px) and (hover: hover) and (pointer: fine)";
+export const SIDE_AD_QUERY = "(min-width: 1440px) and (min-height: 760px) and (hover: hover) and (pointer: fine)";
 export const DESKTOP_AD_QUERY = "(min-width: 1024px) and (hover: hover) and (pointer: fine)";
 export const SOCIALBAR_SCRIPT_SRC = "https://bicea.org/14/fe219a1085afcc9accb75cdcd6f41581";
 export const POPUNDER_SCRIPT_SRC = "https://afders.org/1/c0e05061fccfa5f304e0861873bebc97";

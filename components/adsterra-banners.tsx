@@ -42,7 +42,7 @@ export function AdsterraBanners() {
   if (!SITE_SCRIPTS.adsterraBanners || !wideDesktop) return null;
 
   return <>
-    <aside aria-label="Publicidad" className="fixed left-[calc(50%-824px)] top-16 z-20 print:hidden"><Banner placement="left" production={production} /></aside>
-    <aside aria-label="Publicidad" className="fixed right-[calc(50%-824px)] top-16 z-20 print:hidden"><Banner placement="right" production={production} /></aside>
+    <aside aria-label="Publicidad" className="fixed left-[calc(50%-700px)] top-8 z-20 print:hidden"><Banner placement="left" production={production} /></aside>
+    <aside aria-label="Publicidad" className="fixed right-[calc(50%-700px)] top-8 z-20 print:hidden"><Banner placement="right" production={production} /></aside>
   </>;
 }
