@@ -5,8 +5,7 @@ import { BANNER_UNITS, DESKTOP_AD_QUERY, SIDE_AD_QUERY, SITE_SCRIPTS } from "@/l
 
 function Banner({ placement, production }: { placement: keyof typeof BANNER_UNITS; production: boolean }) {
   const unit = BANNER_UNITS[placement];
-  return <div data-ad-placement={placement} style={{ width: unit.width }} className="space-y-1.5">
-    <p className="text-center text-[10px] uppercase tracking-wider text-muted-foreground">Publicidad</p>
+  return <div data-ad-placement={placement} style={{ width: unit.width }}>
     {production ? <iframe
       title={`Publicidad ${unit.width}×${unit.height}`}
       width={unit.width}
